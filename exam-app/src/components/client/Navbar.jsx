@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link to="/" className="block text-white hover:text-gray-200 p-2">Home</Link>
           <Link to="/about" className="block text-white hover:text-gray-200 p-2">About</Link>
           <Link to="/courses" className="block text-white hover:text-gray-200 p-2">Courses</Link>
-          <Link to="/exam-panel" className="block text-white hover:text-gray-200 p-2">Exam Panel</Link>
+          <Link to="/auth-student" className="block text-white hover:text-gray-200 p-2">Exam Panel</Link>
           <Link to="/exam-panel" className="block bg-white text-blue-500 px-4 rounded p-2">Admin Login</Link>
         </div>
       )}
