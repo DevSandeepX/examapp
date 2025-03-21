@@ -4,7 +4,7 @@ import cors from "cors"
 import connectDb from "./config/connectDb.js";
 import userRoute from "./routes/userRoute.js";
 import adminRoute from "./routes/adminRoute.js";
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 
 const app = express()
 app.use(express.json())
