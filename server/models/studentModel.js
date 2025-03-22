@@ -4,7 +4,7 @@ const studentSchema = new mongoose.Schema({
   rollno: { type: String, required: true, },
   password: { type: String, required: true },
   course: { type: String, required: true },
-  isComplateExam: { type: String, default: false },
+  isComplateExam: { type: Boolean, default: false },
   result: {
     rightAns: { type: Number, default: 0 },
     wrongAns: { type: Number, default: 0 },
