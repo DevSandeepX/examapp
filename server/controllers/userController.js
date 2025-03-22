@@ -81,7 +81,7 @@ const verifyStudent = async (req, res) => {
             return res.json({ data: null, success: false, message: "Student not found or incorrect details" });
         }
 
-        if (student.isCompleteExam) {
+        if (student.isCompleteExam === 'true') {
             return res.json({ data: null, success: false, message: "Your exam has already been completed" });
         }
 
