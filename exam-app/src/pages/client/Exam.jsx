@@ -175,9 +175,32 @@ const Exam = () => {
 
   if (loading) {
     return (
-      <div>
-        <h2 className='text-3xl text-center'>Loading...</h2>
-      </div>
+       <div className="flex justify-center items-center">
+        <svg
+            className="animate-spin h-8 w-8 text-blue-500"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+        >
+            <circle
+                cx="12"
+                cy="12"
+                r="10"
+                strokeWidth="4"
+                stroke="#e5e7eb"
+                fill="none"
+            />
+            <path
+                fill="none"
+                stroke="#2563eb"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="4"
+                d="M4 12a8 8 0 0116 0"
+            />
+        </svg>
+    </div>
     );
   }
 
