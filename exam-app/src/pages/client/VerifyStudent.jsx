@@ -66,7 +66,7 @@ const VerifyStudent = () => {
                             name="password"
                             value={user.password}
                             onChange={handleChange}
-                            placeholder='Date of Birth'
+                            placeholder='Password'
                             className='w-full py-2 px-4 border outline-none border-black rounded'
                         />
                     </div>
